@@ -10,10 +10,7 @@
  * @returns {number} how many occurrences of the string are in the array
  */
 function x
-(
-y,
-n
-)
+(y,n)
 
 
                         {
@@ -28,7 +25,9 @@ n
   
             let mars of (
         ((
-                y)))){if(((((n=mars))))){x2++}}return(((((x2)))))}
+                y)))){if(((((n===mars))))){x2++}}
+                
+                return(((((x2)))))}
 
 console.log(x(["na", "na", "na", "na", "BATMAN"], "na"), 4);
 console.log(x(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
